@@ -105,6 +105,7 @@
                 </div>
               </div>
             </div>
+            
           </div>
 
           <div id="myModal4" class="modal fade" role="dialog">
@@ -152,7 +153,6 @@
             <div class="modal-dialog">
               <!-- Modal content -->
               <div class="modal-content">
-                
                 <div class="modal-body">
                   
                   <img src="images/Academics/grid/WhatsApp Image 2023-05-27 at 6.02.00 PM.jpeg" class="img-responsive" alt="Popup Image 8">
@@ -160,6 +160,150 @@
               </div>
             </div>
           </div>
+
+<style>
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #8ab5ee;
+  width: 30%;
+  height: 500px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #101ccc;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ffffff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 500px;
+}
+.banner{
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-color: #101ccc;
+  background-attachment: fixed;
+}
+.banner img{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'IT')" id="defaultOpen">SCHOOL OF INFORMATION SCIENCES</button>
+  <button class="tablinks" onclick="openCity(event, 'BIO')">SCHOOL OF BIOSCIENCES</button>
+  <button class="tablinks" onclick="openCity(event, 'MEDIA')">SCHOOL OF MEDIA STUDIES</button>
+  <button class="tablinks" onclick="openCity(event, 'COMM')">SCHOOL OF COMMERCE AND MANAGEMENT</button>
+</div>
+
+<div id="IT" class="tabcontent">
+  <h3>SCHOOL OF INFORMATION SCIENCES</h3>
+  <div class="banner">
+    <img src="/images/GIF.gif" alt="">
+  </div>
+  <p align="justify">With a reputation as a centre for learning, over the two decades, the school since
+    1996 has provided sound knowledge among the students in the areas of computer
+    science, computer applications and information technology. The vision of the
+    school is to emerge as a centre disseminating and moulding technically
+    competent computer professionals for national building. The school organizes
+    conduct various competitions in the inter/intra levels. It also conducts workshop,
+    Industrial visits Seminar in association with industry experts and associations. The
+    students are being taught by experienced faculty members and extensive practical
+    knowledge is being imparted to face challenges in the IT field and to meet the
+    global competition too.</p>
+</div>
+
+<div id="BIO" class="tabcontent">
+  <h3>SCHOOL OF BIOSCIENCES</h3>
+  <p align="justify">The school of biosciences comprising of UG and PG biotechnology since 2002
+    provides students with a unique, multidisciplinary and collaborative learning
+    experience to make them technicians, researchers and entrepreneurs. The school has
+    been extraordinary in organizing hands on training, workshops and conferences on
+    need of the hour areas. The PG biotechnology specializes in doing research on
+    medical biotechnology, Green Nanotechnology, application oriented technology and
+    UG biotechnology on Algology.</p> 
+</div>
+
+<div id="MEDIA" class="tabcontent">
+  <h3>SCHOOL OF MEDIA STUDIES</h3>
+  <p align = "justify">Tasdasdasdassd</p>
+</div>
+
+<div id="COMM" class="tabcontent">
+    <h3>SCHOOL OF MEDIA STUDIES</h3>
+    <p align="justify">Tasdasdassdassd</p>
+</div>
+
+<div class="footer"></div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+const Header = document.querySelector('.Header');
+fetch('/header.html')
+    .then(res => res.text())
+    .then(data => {
+        Header.innerHTML = data
+    })
+
+
+
+const Footer = document.querySelector('.Footer');
+fetch('/footer.html').then(res => res.text()).then(data => {
+    Footer.innerHTML = data
+})
+</script>
+
+
+
           <script>
             $(document).ready(function() {
               // Update the modal image source when a thumbnail is clicked
