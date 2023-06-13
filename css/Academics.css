@@ -1,0 +1,38 @@
+  .navbar {
+        background-color: rgb(1, 126, 163);
+        /* set blue background */
+    }
+
+    .navbar .nav>li>a {
+        color: #fff;
+        /* set white text */
+    }
+
+    .navbar .nav>li>a:hover {
+        color: lightblue;
+    }
+
+    .container img{
+        margin: 20px;
+        height: 200px; 
+        width: 200px;
+
+    }
+
+
+    .model-body{
+width: 400px;
+height: 400px;
+    }
+
+    @media (max-width:800px) {
+        .container image{
+            width: 100%;
+            height: fit-content;
+            text-align: center;
+            .col-md-2{
+                width: fit-content;
+                height: fit-content;
+            }
+        }
+    }

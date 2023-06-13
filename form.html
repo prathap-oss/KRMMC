@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+
+<body>
+   <header class="Header"></header>
+
+    <div class="container">
+
+
+        <form method="post" id="form"
+            action="https://script.google.com/macros/s/AKfycbyxajA62Zbq_nVPowCEjxHeLyDPESRo0fmNYob_d3cJ6_9V7P3lw2kW2tDPVjU3Td4CYQ/exec"
+            data-email="krmmcadmissions2023@gmail.com">
+            <label for="">
+                <h3>Program Applying For</h3>
+            </label><br>
+            <table style="width:100%;">
+                <tr>
+                    <td>
+                        <label for="UG">Undergraduate:</label>
+                        <select name="UG">
+                            <option value="None">None </option>
+                            <option value="B.Com General">B.Com General</option>
+                            <option value="B.Com Corporate Secetaryship">B.Com Corporate Secetaryship</option>
+                            <option value="B.B.A Business Administartion ">B.B.A Business Administartion </option>
+                            <option value="B.Com Accounting & finance">B.Com Accounting & finance</option>
+                            <option value="B.C.A Computer Application">B.C.A Computer Application </option>
+                            <option value="B.sc Computer Science">B.sc Computer Science </option>
+                            <option value="B.Sc Visual Communication ">B.Sc Visual Communication </option>
+                            <option value="B.Sc Biotechnology">B.Sc Biotechnology </option>
+
+                        </select>
+                    </td>
+                    <td><label for="PG">Postgraduate:</label>
+                        <select name="PG">
+                            <option value="None">None </option>
+                            <option value="M.Sc Biotechnology">M.Sc Biotechnology</option>
+                            <option value=".Sc Information Technology">M.Sc Information Technology</option>
+                            <option value="M.Com Bank Management">M.Com Bank Management </option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table style="width: 100%;">
+                <tr>
+                    <td>
+                        <label class="required" for="name">Name</label>
+                        <input type="text" name="Name">
+
+                    </td>
+                    <td>
+                        <label class="required" for="DOB">Date Of Birth </label>
+                        <input type="date" name="DateOfBirth">
+
+                    </td>
+                    <td>
+                        <label for="address" class="required">Address</label>
+                        <input type="text" placeholder="" name="Address"><br>
+
+                    </td>
+                </tr>
+                <tr>
+
+
+                </tr>
+                <tr>
+                    <td>
+                        <label class="required" for="num">Mobile Number</label>
+                        <input type="tel" name="MobileNumber"><br>
+
+
+                    </td>
+                    <td>
+                        <label for="AlrernateNumber">Alternate Number</label>
+                        <input type="tel" name="AlternateNumber"><br>
+
+                    </td>
+                    <Td> <label class="required" for="email">Email</label>
+                        <input type="email" name="email"><br>
+                    </Td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Nationality">Nationality</label>
+                        <input type="text" name="Nationality"><br>
+
+                    </td>
+                    <td>
+                        <label for="Religion">Religion</label>
+                        <input type="text" name="Religion"><br>
+
+                    </td>
+                    <td>
+
+                        <label for="Community">Community(as per Community Certificate)</label>
+                        <input type="text" name="Community"><br>
+
+                    </td>
+                </tr>
+            </table>
+            <h3>Education Qualification Details :</h3>
+            <table style="width:100%;">
+                <tr>
+                    <td>
+                        <label for="school">Name Of The School Studied</label>
+                        <input type="text" name="School"><br>
+                    </td>
+                    <td>
+                        <label for="Group">Group Studied:</label>
+                        <select name="group-studied">
+                            <option value="Physics,Chemistry,Mathematics & Computer science">Group
+                                1:Physics,Chemistry,Mathematics & Computer science</option>
+                            <option value="Physics,Chemistry,Mathematics & Biology">Group
+                                2:Physics,Chemistry,Mathematics & Biology</option>
+                            <option value="Physics,Chemistry,Biology,Microbiology / Nutrition & Dietetics">Group
+                                3:Physics,Chemistry,Biology,Microbiology / Nutrition & Dietetics</option>
+                            <option
+                                value="Commerce,Accountacy,Economics & Computer Science / Business Maths / English for Communication">
+                                Group 4:Commerce,Accountacy,Economics & Computer Science / Business Maths / English for
+                                Communication</option>
+                            <option value="History,Geography,Economics & English for Communication / Computer Science">
+                                Group 5:History,Geography,Economics & English for Communication / Computer Science
+                            </option>
+                            <option value="Food Management and Child Care,Home Science and Computer application">Group
+                                6:Food Management and Child Care,Home Science and Computer application</option>
+                            <option value="Dress Designing,Home Science and Computer application">Group 7:Dress
+                                Designing,Home Science and Computer application</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table style="width:100%;">
+                <tr>
+                    <td>
+                        <label for="board">Board(HSC/CBSC/ICSE/NIOS/OTHERS)</label>
+                        <select name="board">
+                            <option value="Hsc">Hsc</option>
+                            <option value="CBSC">CBSC</option>
+                            <option value="CBSC">CBSC</option>
+                            <option value="NIOS">NIOS</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="Medium">Medium(English/Tamil)</label>
+                        <select name="Medium">
+                            <option value="Tamil">Tamil</option>
+                            <option value="English">English</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="Yearofpassing">Year of Passing</label>
+                        <select name="Yearofpassing">
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <h3>Parent Information:</h3><br>
+            <table style="width: 100%;">
+                <tr>
+                    <td>
+                        <label for="FatherName"><b>Father's / Guardian-Name</b></label>
+                        <input type="text" name="FatherName">
+                    </td>
+                    <td> <label for="Occupation">Occupation</label>
+                        <input type="text" name="Occupation">
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td> <label for="OfficeAddress1">Office Address</label>
+                        <input type="text" name="OfficeAddress1">
+                    </td>
+                    <td> <label for="FatherMail">Mail</label>
+                        <input type="text" name="FatherMail"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="FatherNumber">Phone</label>
+                        <input type="text" name="FatherNumber">
+                    </td>
+                    <td> <label for="FatherAlternateNumber">Alrernate Number</label>
+                        <input type="tel" name="FatherAlternateNumber">
+                    </td>
+                </tr>
+                <tr></tr>
+            </table>
+            <table style="width: 100%;">
+                <tr>
+                    <td>
+                        <label for="MotherName"><b>Mother's / Guardian-Name</b></label>
+                        <input type="text" name="MotherName">
+                    </td>
+                    <td> <label for="Occupation">Occupation</label>
+                        <input type="text" name="mOccupation">
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td> <label for="OfficeAddress2">Office Address</label>
+                        <input type="text" name="OfficeAddress2">
+                    </td>
+                    <td> <label for="Mothermail">Mail</label>
+                        <input type="text" name="Mothermail"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="MotherNumber">Phone</label>
+                        <input type="text" name="MotherNumber">
+                    </td>
+                    <td>
+                        <label for="MotherAlternateNumber">Alrernate Number</label>
+                        <input type="tel" name="MotherAlternateNumber">
+                    </td>
+                </tr><br><br>
+                <tr>
+                    <td><label>Upload your image:</label><input type="file" value="image" name="image" id></td>
+                </tr>
+
+            </table><br>
+            <BR>
+            <label class="required" for="enquiry">Enquiry</label>
+            <textarea id="enquiry" name="enquiry" style="height:200px"></textarea>
+            <a href="index.html" class="btn" style="text-decoration: none; ">BACK</a> &nbsp;
+            <button type="submit" class="" onclick="ClosePop()">SUBMIT</button>
+        </form>
+    </div>
+
+
+
+
+    <script src="js/form.js"></script>
+    <script src="/js/connect.js"></script>
+</body>
+
+</html>

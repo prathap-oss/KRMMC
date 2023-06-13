@@ -1,0 +1,146 @@
+@media (max-width:800px) {
+    .nav-tabs li{
+        width: 100% !important;
+        text-align: center;
+        
+    }
+    .content{
+      overflow: scroll;
+    }
+}
+.navbar {
+    background-color: rgb(1, 126, 163);
+    /* set blue background */
+  }
+  
+  .navbar .nav > li > a {
+    color: #fff;
+    /* set white text */
+  }
+  
+  .navbar .nav > li > a:hover {
+    color: lightblue;
+  }
+  body{
+    background-color: rgb(252, 251, 251);
+  }
+
+.container{
+  width: 100% !important;
+}  
+
+  .text-center{
+    text-align: center;
+    
+  }
+  .content{
+    font-weight: 300;
+    text-align: justify;
+    font-size: 16px;
+    background-color: #fff;
+    
+
+  }
+  .nav-tabs {
+   width: 100% !important;   
+   font-size: 16px;
+   font-weight: bold;
+}
+#functions ,#about,#objective,#benefits,#generals{
+    height: 300px;
+    background-color: #ffffff;
+}
+#menu1,#menu2,#menu3{
+  height: 600px;
+  background-color: #ffffff;
+}
+.content2{
+  background-color: rgb(1, 126, 163);
+  color: white;
+}
+.cont{
+  
+    background-color: rgb(1, 126, 163) !important;
+    color: rgb(190, 190, 190);
+    font-family: georgia !important;
+    font-size: 14px !important;
+   
+}
+.cont a:hover{
+color: aqua;
+}
+
+.main-tab {
+  background-color: rgb(1, 126, 163);
+  color: yellow !important;
+ 
+}
+.main-tab  li a{
+  color: rgb(10, 10, 10) !important;
+}
+.main-tab  a:hover{
+color: aqua;
+}
+.main-tab li a::after{
+  color: rgb(245, 239, 239) !important;
+}
+.tp img{
+  width: 100%;
+}
+
+/* IQAC MEETINGS TAB CSS*/
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#exTab1 .tab-content {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
+}
+
+#exTab2 h3 {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills>li>a {
+  border-radius: 0;
+}
+
+.tab-pan a {
+  color: white;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills>li>a {
+  border-radius: 4px 4px 0 0;
+}
+
+#exTab3 .tab-content {
+  color: white;
+  background-color: #428bca;
+  padding: 5px 15px;
+}
+
+.navbar {
+  background-color: rgb(1, 126, 163);
+  /* set blue background */
+}
+
+.navbar .nav>li>a {
+  color: #fff;
+  /* set white text */
+}
+
+.navbar .nav>li>a:hover {
+  color: lightblue;
+}
+
+.sizing{
+  font-size: 20px;
+}

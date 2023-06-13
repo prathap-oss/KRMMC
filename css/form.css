@@ -1,0 +1,112 @@
+  body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background-color: rgb(1, 126, 163);
+            /* set blue background */
+        }
+
+        .navbar .nav>li>a {
+            color: #fff;
+            /* set white text */
+        }
+
+        .navbar .nav>li>a:hover {
+            color: lightblue;
+        }
+
+        /* ////////////////////////////    logo    ////////////////////////////////////// */
+
+        .row-logo {
+            text-align: center;
+            display: flex;
+            width: 100%;
+            height: 18vw;
+            line-height: 2.6vw;
+            border-top-color: #070707;
+            background-color: f2f2f2;
+        }
+
+        .left-logo {
+            text-align: center;
+            float: left;
+            width: 20%;
+        }
+
+        .middle-logo {
+            margin: 5;
+            width: 60%;
+            color: brown;
+        }
+
+        .right-logo {
+            float: right;
+            width: 20%;
+        }
+
+        /* Clear floats after the columns */
+
+        .row-logo:after {
+            display: table;
+            content: "";
+            clear: both;
+        }
+
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=email],
+        input[type=tel],
+        input[type=date] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        button[type=submit],
+        .btn {
+            background-color: blue;
+            color: white;
+            font-weight: 600;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        input[type=submit]:hover {
+            background-color: green;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .required::after {
+            content: " *";
+            color: red;
+            font-size: 20px;
+        }

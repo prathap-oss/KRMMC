@@ -1,0 +1,72 @@
+  input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=email],
+        input[type=tel],
+        input[type=date] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        button[type=submit] {
+            background-color: blue;
+            color: white;
+            font-weight: 600;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .btnn {
+            background-color: blue;
+            color: white;
+            font-weight: 600;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            margin-left: 90vh;
+            font-size: 20px;
+        }
+
+        .required::after {
+            content: " *";
+            color: red;
+            font-size: 20px;
+        }
+
+        .btnn a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .navbar {
+            background-color: rgb(1, 126, 163);
+            /* set blue background */
+        }
+
+        .navbar .nav>li>a {
+            color: #fff;
+            /* set white text */
+        }
+
+        .navbar .nav>li>a:hover {
+            color: lightblue;
+        }

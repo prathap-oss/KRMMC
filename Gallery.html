@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/Gallery.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+
+<body>
+    <header class="Header"></header>
+
+
+
+    <main>
+        <h2 style="text-align:center"> Gallery</h2>
+
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 8</div>
+                <img src="images/culturals/_MG_9715-min.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 8</div>
+                <img src="images/culturals/_MG_9728-min.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 8</div>
+                <img src="images/culturals/_SPR3986-min.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 8</div>
+                <img src="images/culturals/DSC_5885-min.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 8</div>
+                <img src="images/culturals/DSC_7178-min.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 8</div>
+                <img src="images/culturals/DSC_7136-min.JPG" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">7 / 8</div>
+                <img src="images/culturals/IMG_2199-min.JPG" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">8 / 8</div>
+                <img src="images/culturals/min.jpeg" style="width:100%">
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="row" style="margin-top: 50px;">
+                <div class="column">
+                    <img class="demo cursor" src="images/culturals/_MG_9715-min.JPG" style="width:100%"
+                        onclick="currentSlide(1)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/culturals/_MG_9728-min.JPG" style="width:100%"
+                        onclick="currentSlide(2)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/culturals/_SPR3986-min.JPG" style="width:100%"
+                        onclick="currentSlide(3)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/culturals/DSC_5885-min.JPG" style="width:100%"
+                        onclick="currentSlide(4)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/culturals/DSC_7136-min.JPG" style="width:100%"
+                        onclick="currentSlide(5)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/culturals/DSC_7178-min.JPG" style="width:100%"
+                        onclick="currentSlide(6)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/culturals/IMG_2199-min.JPG" style="width:100%"
+                        onclick="currentSlide(7)" alt="">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/culturals/min.jpeg" style="width:100%"
+                        onclick="currentSlide(8)" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+   <div class="Footer"></div>
+    <script src="/js/connect.js"></script>
+    <script src="js/Gallery.js"></script>
+</body>
+
+</html>
