@@ -18,16 +18,12 @@ function openCity(evt, cityName) {
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
 
-  $(document).ready(function () {
-    // Update the modal image source when a thumbnail is clicked
-    $(".thumbnail").click(function () {
-      var modalId = $(this).attr("data-target");
-      var imgSrc = $(this).find("img").attr("src");
-      $(modalId).find("img").attr("src", imgSrc);
-    });
 
-    // Show modal content when fully loaded
-    $(".modal").on("shown.bs.modal", function () {
-      $(this).find(".modal-content").addClass("active");
-    });
+  $(document).ready(function(){
+    // Activate the carousel
+    $('.carousel').carousel();
+
+    // Start the automatic sliding behavior
+    $('.carousel').carousel('cycle');
   });
+
