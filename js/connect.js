@@ -4,9 +4,6 @@ fetch('/header.html')
     .then(data => {
         Header.innerHTML = data
     })
-
-
-
 const Footer = document.querySelector('.Footer');
 fetch('/footer.html').then(res => res.text()).then(data => {
     Footer.innerHTML = data
